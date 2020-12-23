@@ -1,5 +1,5 @@
   if ( 1 === 1) {
-    showMessage('true');
+    showMessage('true');};
  let price = 15;
 if (price > 10) {
    showMessage('true');
