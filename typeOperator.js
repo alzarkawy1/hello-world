@@ -1,5 +1,5 @@
  let price = 12;
-       taxRate = 0.05;
+     taxRate = 0.05;
    price = price * 3;
    showMessage(++price * taxRate);
  let message = "Hello \"World\"";
