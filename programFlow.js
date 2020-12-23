@@ -1,22 +1,14 @@
-  if ( 1 === 1) {
-    showMessage('true');};
- let price = 15;
-if (price > 10) {
-   showMessage('true');
-
-};
-else if (price < 5) {
-   showMessage('less then 5');
-};
- 
- let price = 20;
- if (price !== 15) {
-    showMessage('discounted');
- };
-
-let price = 20;
-let message = (price < 10) ? 'yes' : 'No';
-showMessage(message);
- for (let i=0; i<5; i++){
-   console.log(i); 
- };
+let price = 12;
+     taxRate = 0.05;
+   price = price * 3;
+   showMessage(++price * taxRate);
+ let message = "Hello \"World\"";
+   showMessage(message);
+ let name = 'A Thuc';
+   let message 'Chao ${name}';
+   showMessage(message);
+ let message = 'Hello';
+   message = message.lowerCase();
+ let amount = Number.parseFloat("123.123")
+   showMessage(amount);
+   console.log(amount);
