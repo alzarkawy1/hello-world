@@ -1,4 +1,4 @@
-*    if ( 1 === 1) {
+  if ( 1 === 1) {
     showMessage('true');
  let price = 15;
 if (price > 10) {
@@ -18,4 +18,5 @@ let price = 20;
 let message = (price < 10) ? 'yes' : 'No';
 showMessage(message);
  for (let i=0; i<5; i++){
-   console.log(i); };
+   console.log(i); 
+ };
