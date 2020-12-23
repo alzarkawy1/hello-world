@@ -10,5 +10,5 @@
  let message = 'Hello';
    message = message.lowerCase();
  let amount = Number.parseFloat("123.123")
-    showMessage(amount);
-    console.log(amount);
+   showMessage(amount);
+   console.log(amount);
