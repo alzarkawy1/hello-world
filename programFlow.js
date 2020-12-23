@@ -12,6 +12,7 @@ else if (price < 5) {
  let price = 20;
  if (price !== 15) {
     showMessage('discounted');
+ }
 
 let price = 20;
 let message = (price < 10) ? 'yes' : 'No';
