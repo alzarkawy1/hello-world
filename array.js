@@ -15,3 +15,18 @@ const set =values.filter(function(item){
     return item > 'b';
 });
 console.log( set );
+
+const values =['a','bbb','cccc'];
+const found = values.find(function(item) {
+    return item.length > 1;
+    
+});
+    
+console.log( found );
+
+const values =['a','b','c'];
+
+values.forEach(function(item) {
+    console.log(item);
+    
+});
